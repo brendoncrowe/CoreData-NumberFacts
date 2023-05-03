@@ -11,6 +11,7 @@
 		4037F7722A02F643005D9C6F /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037F76E2A02F643005D9C6F /* Post+CoreDataClass.swift */; };
 		4037F78A2A02F8A6005D9C6F /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037F7882A02F8A6005D9C6F /* Post+CoreDataProperties.swift */; };
 		4037F78B2A02F8A6005D9C6F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037F7892A02F8A6005D9C6F /* User+CoreDataProperties.swift */; };
+		4037F78D2A02FA86005D9C6F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037F78C2A02FA86005D9C6F /* CoreDataManager.swift */; };
 		409AD47F2A02D38F00E5B25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AD47E2A02D38F00E5B25E /* AppDelegate.swift */; };
 		409AD4812A02D38F00E5B25E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AD4802A02D38F00E5B25E /* SceneDelegate.swift */; };
 		409AD4832A02D38F00E5B25E /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AD4822A02D38F00E5B25E /* PostsViewController.swift */; };
@@ -28,6 +29,7 @@
 		4037F76E2A02F643005D9C6F /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4037F7882A02F8A6005D9C6F /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4037F7892A02F8A6005D9C6F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4037F78C2A02FA86005D9C6F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		409AD47B2A02D38F00E5B25E /* CoreData-NumberFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-NumberFacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409AD47E2A02D38F00E5B25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409AD4802A02D38F00E5B25E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				4037F7892A02F8A6005D9C6F /* User+CoreDataProperties.swift */,
 				4037F76C2A02F643005D9C6F /* User+CoreDataClass.swift */,
 				4037F76E2A02F643005D9C6F /* Post+CoreDataClass.swift */,
+				4037F78C2A02FA86005D9C6F /* CoreDataManager.swift */,
 				409AD4872A02D38F00E5B25E /* CoreData_NumberFacts.xcdatamodeld */,
 			);
 			path = Models;
@@ -192,6 +195,7 @@
 				4037F78A2A02F8A6005D9C6F /* Post+CoreDataProperties.swift in Sources */,
 				409AD47F2A02D38F00E5B25E /* AppDelegate.swift in Sources */,
 				409AD4812A02D38F00E5B25E /* SceneDelegate.swift in Sources */,
+				4037F78D2A02FA86005D9C6F /* CoreDataManager.swift in Sources */,
 				409AD4892A02D38F00E5B25E /* CoreData_NumberFacts.xcdatamodeld in Sources */,
 				4037F78B2A02F8A6005D9C6F /* User+CoreDataProperties.swift in Sources */,
 				4037F7702A02F643005D9C6F /* User+CoreDataClass.swift in Sources */,

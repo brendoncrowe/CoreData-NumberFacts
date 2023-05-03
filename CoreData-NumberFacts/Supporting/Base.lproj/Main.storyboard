@@ -44,7 +44,7 @@
                     <navigationItem key="navigationItem" title="Users" id="8wa-s6-7WJ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="E44-my-FxL">
                             <connections>
-                                <segue destination="W2l-Zc-tTi" kind="presentation" id="Ff1-go-pBN"/>
+                                <segue destination="W2l-Zc-tTi" kind="presentation" identifier="createUserSegue" id="Ff1-go-pBN"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -96,9 +96,6 @@
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="U7b-aT-rAA">
                                                     <rect key="frame" x="0.0" y="42" width="353" height="216"/>
-                                                    <connections>
-                                                        <action selector="datePickerChanged:" destination="W2l-Zc-tTi" eventType="valueChanged" id="uCw-er-c2B"/>
-                                                    </connections>
                                                 </datePicker>
                                             </subviews>
                                             <constraints>
@@ -140,6 +137,7 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="datePicker" destination="U7b-aT-rAA" id="Af6-AU-n5L"/>
                         <outlet property="userNameTextField" destination="Iq8-a8-IJZ" id="r73-o5-TlG"/>
                     </connections>
                 </tableViewController>
@@ -340,11 +338,11 @@
             </objects>
             <point key="canvasLocation" x="-666" y="-189"/>
         </scene>
-        <!--Item 1-->
+        <!--Posts-->
         <scene sceneID="q2O-5T-9AN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K4A-ui-oNL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xCZ-7h-HOq"/>
+                    <tabBarItem key="tabBarItem" title="Posts" image="paperplane" catalog="system" selectedImage="paperplane.fill" id="xCZ-7h-HOq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aYq-hL-AXG">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -359,11 +357,11 @@
             </objects>
             <point key="canvasLocation" x="620.61068702290072" y="-559.15492957746483"/>
         </scene>
-        <!--Item 2-->
+        <!--Users-->
         <scene sceneID="M0u-JI-laU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8hd-nQ-n4I" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Ny5-6i-Veq"/>
+                    <tabBarItem key="tabBarItem" title="Users" image="person.3.sequence" catalog="system" selectedImage="person.3.sequence.fill" id="Ny5-6i-Veq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Up0-nu-oJe">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -380,6 +378,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="paperplane" catalog="system" width="128" height="119"/>
+        <image name="paperplane.fill" catalog="system" width="128" height="119"/>
+        <image name="person.3.sequence" catalog="system" width="128" height="60"/>
+        <image name="person.3.sequence.fill" catalog="system" width="128" height="59"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
